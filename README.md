@@ -5,4 +5,7 @@ Once the game window has opened you need to click once to initiate the game, the
 I suggest to posistion your arms like you are holding the straps of a backpack you are wearing - then move your arms up and down to flap.
 
 The flappy bird tutorial I followed: http://codingwithruss.com/pygame/flappy/background.html
+
+
+
 The OpenCV video I referenced to learn about body landmark detection: https://www.youtube.com/watch?v=BtMs0ysTdkM
