@@ -39,7 +39,7 @@ white = (255, 255, 255)
 
 # define game variables
 ground_scroll = 0
-scroll_speed = 4
+scroll_speed = 6
 flying = False
 game_over = False
 pipe_gap = 150
