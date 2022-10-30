@@ -88,7 +88,6 @@ class Bird(pygame.sprite.Sprite):
                 self.rect.y += int(self.vel)
 
         if not game_over:
-            # jump (to be changed greatly (evil laugh))
             if flap == True and self.clicked == False:
                 self.clicked = True
                 self.vel = -10
