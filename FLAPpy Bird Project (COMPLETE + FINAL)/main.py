@@ -166,7 +166,7 @@ top_pipe = Pipe(300, int(screen_height / 2), 1)
 button = Button(screen_width // 2 - 50, screen_height // 2 - 100, button_image)
 
 while run:
-    # Camera
+    # Camera + Flap Detection
     lmList = []
     ret, img = cap.read()
     width = int(cap.get(3))
@@ -193,7 +193,6 @@ while run:
         pTime = cTime
         pipe_frequency = (60 / camera_fps) * 1500
 
-    # Flap Detection
 
     clock.tick(fps)
     # Draw Background
